@@ -16,12 +16,10 @@ public class ProductSearchTab {
 		HomePage home  = new HomePage();
 		home.gotoProduct();
 		home.gotoSearchResult();
-		//home.sorthightolow();
 		home.booking();
 		home.selectConfig();
 		home.addTocart();
-		//.applyjob("Mr","Saksham", "Chaudhary", "saksham@gmail.com", "8193842515");
-		//Page.quitBrowser();
+
 		
 		
 	}

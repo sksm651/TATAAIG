@@ -15,8 +15,7 @@ import com.w2a.base.Page;
 
 public class HomePage extends Page {
 
-	// @FindBy (css= ".dropdown-toggle")
-	// public WebElement producttab;
+
 	public HomePageLocators home;
 
 	public HomePage() {
@@ -43,27 +42,14 @@ public class HomePage extends Page {
 
 	public HomePage gotoSearchResult() {
 
-		// drpCountry = new
-		// Select(driver.findElement(By.xpath("//span[@id='a-autoid-0-announce']")));
-		// drpCountry.selectByVisibleText("High to Low");
+
 		home.sortbyPrice.click();
 		home.hightolow.click();
 		return this;
 
 	}
 
-//	public void sorthightolow() {
-//
-//		HomePageLocators productPage = new HomePageLocators();
-//		List<Integer> priceList = productPage.getProductPrices();
-//
-//		Collections.sort(priceList, Collections.reverseOrder());
-//
-//		for (Integer price : priceList) {
-//			System.out.println("$" + price);
-//		}
-//
-//	}
+
 
 	public void booking() {
 
